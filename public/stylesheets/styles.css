@@ -565,6 +565,7 @@ form{
     display: flex;
     flex-direction: column;
     font-family: 'Nova Round', cursive;
+    padding-top: 3rem;
     margin-bottom: 1rem;
     overflow-y: scroll;
     overflow-x:hidden;
@@ -934,7 +935,7 @@ form{
 
     .title {
         font-size: 32pt;
-        padding-top: 0;
+        padding-top: 3rem;
         margin: 1rem auto;
         width: 100%;
         opacity: .9;
@@ -1153,6 +1154,7 @@ form{
 /* desktop about page ================================================================ */
 
     #aboutWrapper {
+        padding-top: 6rem;
         margin-bottom: 2rem;
         
     }
@@ -1228,7 +1230,7 @@ form{
 
     .title {
         font-size: 44pt;
-        padding-top: 2rem;
+        padding-top: 3rem;
         width: 100%;
     }
 
@@ -1389,6 +1391,10 @@ form{
    
 
     /* XL desktop about page ================================================================ */
+
+    .aboutWrapper{
+        padding-top: 6rem;
+    }
 
     .aboutTitle {
         font-size: 36pt;
