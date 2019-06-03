@@ -114,7 +114,7 @@ li:hover{
     height: 20;
     text-align: center;
     vertical-align: middle;
-    padding-top: 6rem;
+    margin-top: 6rem;
     font-family: 'Nova Oval', cursive;
     font-size: 2rem;
     color: white;
@@ -163,6 +163,7 @@ li:hover{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    /* padding: 1rem; */
 }
 
 .editorContainer {
@@ -262,6 +263,7 @@ button {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+    margin: 0 auto;
 
 }
 
@@ -319,6 +321,10 @@ form{
     font-size: 1.5rem;
     color: #4c0be8;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #submitButton{
@@ -333,7 +339,7 @@ form{
 
 .textContainer{
     display: none;
-    margin: 3rem auto;
+    margin: 3rem;
     width: 80%;
     background-color: rgb(255, 255, 255);
     padding: 1rem;
@@ -355,6 +361,7 @@ form{
 }
 
 .datamuse-button {
+    margin-top: 0.5rem;
     font-size: 1.5rem;
     width: 8rem;
 }
@@ -1022,6 +1029,7 @@ form{
         flex-direction: column;
         align-items: space-evenly;
         justify-content: center;
+        margin: 0 auto;
     }
 
     form {
@@ -1033,23 +1041,24 @@ form{
     form input {
         display: block;
         margin-top: 5px;
-        width: 70%;
+        width: auto;
+        font-size: 14pt;
     }
 
     form input { 
-        font-size: 12pt;
         font-family: inherit;
     }
 
     #mood {
         width: 20rem;
+        color: white;
+        background: #4c0be8;
     }
 
     #note {
         width: 20rem;
         height: 100px;
         font-family: inherit;
-        font-size: 14px;
     }
 
     #today {
@@ -1082,7 +1091,8 @@ form{
     }
 
     .addNewMoodWords{
-         width: calc(100% - 300px);
+        width: calc(100% - 300px);
+        /* width:60%; */
         height: auto;
         align-self: flex-end;
         display: flex;
